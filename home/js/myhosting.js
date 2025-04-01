@@ -1,3 +1,3 @@
 function createAndhost(){
-             window.location.href = "{% url 'create_card' %}";
+             window.location.href = "create-card/";
         }
