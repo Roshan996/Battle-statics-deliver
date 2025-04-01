@@ -130,7 +130,7 @@ function updateEntryFeeOptions() {
     const entryFee = document.getElementById("entry_fee");
 
     $.ajax({
-        url: "{% url 'update_create_card' %}", // Your server endpoint
+        url: "update-create-card/", // Your server endpoint
         type: 'POST', // Or GET, etc.
         contentType: "application/json",
         data: JSON.stringify({game:game, mode: mode}), // Data to send to the server
