@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Poppins:wght@300;400;600&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #1e1e1e, #292929);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .container {
+            max-width: 400px;
+            background: rgba(30, 30, 30, 0.9);
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .container:hover {
+            transform: scale(1.02);
+        }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 22px;
+            margin-bottom: 15px;
+            color: #f1c40f;
+        }
+
+        .status {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 15px 0;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 5px;
+            display: inline-block;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.2);
+            color: #ddd;
+        }
+
+        .pending {
+            background-color: #ff9800;
+            color: white;
+        }
+
+        .active {
+            background-color: #4caf50;
+            color: white;
+        }
+
+        .input-field {
+            width: 100%;
+            padding-top: 12px;
+            padding-bottom: 12px;         
+            margin-top: 10px;
+            border: 1px solid #444;
+            border-radius: 8px;
+            font-size: 16px;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            transition: 0.3s;
+        }
+
+        .input-field:focus {
+            outline: none;
+            border-color: #f1c40f;
+            box-shadow: 0 0 5px rgba(241, 196, 15, 0.8);
+        }
+
+        .apply-btn {
+            background: linear-gradient(135deg, #f1c40f, #e67e22);
+            color: white;
+            border: none;
+            padding: 12px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 8px;
+            width: 100%;
+            transition: 0.3s;
+            margin-top: 15px;
+            font-weight: bold;
+            
+        }
+
+        .apply-btn:hover {
+            background: linear-gradient(135deg, #e67e22, #d35400);
+            transform: scale(1.03);
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                width: 90%;
+            }
+        }
