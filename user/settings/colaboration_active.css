@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Poppins:wght@300;400;600&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #1e1e1e, #292929);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .container {
+            max-width: 400px;
+            background: rgba(30, 30, 30, 0.9);
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .container:hover {
+            transform: scale(1.02);
+        }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 22px;
+            margin-bottom: 10px;
+            color: #f1c40f;
+        }
+
+        p {
+            font-size: 14px;
+            color: #bbb;
+            margin-bottom: 20px;
+        }
+
+        .status {
+            font-size: 18px;
+            font-weight: bold;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            border-radius: 8px;
+            display: inline-block;
+            width: 100%;
+            background-color: #4caf50;
+            color: white;
+        }
+
+        .leave-btn {
+            background: linear-gradient(135deg, #e74c3c, #c0392b);
+            color: white;
+            border: none;
+            padding: 12px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 8px;
+            width: 100%;
+            transition: 0.3s;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .leave-btn:hover {
+            background: linear-gradient(135deg, #c0392b, #a93226);
+            transform: scale(1.03);
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                width: 90%;
+            }
+        }
