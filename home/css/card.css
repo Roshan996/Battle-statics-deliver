@@ -1,0 +1,134 @@
+ body {
+            background: #121212;
+            color: #fff;
+        }
+        
+        /* Header Section */
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            padding: 15px 20px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        /* Back Button */
+        .back-button {
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            transition: 0.3s ease-in-out;
+        }
+
+        .back-button:hover {
+            color: #ffcc00;
+        }
+
+        .back-icon {
+            font-size: 18px;
+        }
+        
+        .match-card {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px;
+            overflow: hidden;
+            background: #1e1e2d;
+            padding: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            position: relative;
+        }
+
+        /* Bookmark Button */
+        .bookmark-btn {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: none;
+            border: none;
+            font-size: 30px;
+            color: #ffcc00;
+            cursor: pointer;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .bookmarked {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: none;
+            border: none;
+            font-size: 28px;
+            cursor: pointer;
+            transition: color 0.3s ease-in-out;
+            color: #ffcc00;
+        }
+
+        /* Landscape Image Styling */
+        .match-card .image-container {
+            width: 100%;
+            aspect-ratio: 1.5;
+            overflow: hidden;
+            justify-content: center;
+        }
+
+        .match-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .match-info {
+            padding: 10px;
+        }
+
+        .match-info h3 {
+            margin-bottom: 10px;
+            font-size: 20px;
+            text-align: center;
+            font-weight: bold;
+            color: #ffcc00;
+        }
+
+        .game-description {
+            text-align: center;
+            font-size: 14px;
+            color: #ccc;
+            margin-bottom: 15px;
+        }
+
+
+        .info-item {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 5px 0;
+        }
+
+        /* Join Button */
+        .join-button {
+            display: block;
+            width: 100%;
+            margin-top: 15px;
+            padding: 12px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #000;
+            background: #ffcc00;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s;
+            text-align:center;
+        }
+
+        .join-button:hover {
+            background: #e6b800;
+        }
