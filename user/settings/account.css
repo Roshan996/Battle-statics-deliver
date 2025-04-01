@@ -1,0 +1,166 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #121212;
+            color: white;
+        }
+        .header {
+            padding: 15px;
+            background: #1e1e1e;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            position: relative;
+        }
+        .back-button {
+            position: absolute;
+            left: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 22px;
+            color: white;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .settings-container {
+            max-width: 400px;
+            margin: 20px auto;
+            padding: 15px;
+            background: #1e1e1e;
+            border-radius: 10px;
+        }
+        .setting-item {
+            padding: 10px 0;
+            border-bottom: 1px solid #333;
+            display: flex;
+            justify-content: space-between;
+        }
+        .setting-item:last-child {
+            border-bottom: none;
+        }
+        .expandable {
+            cursor: pointer;
+            color: #bbb;
+        }
+        .expandable:hover {
+            color: white;
+        }
+        .upi-section {
+            display: none;
+            margin-top: 10px;
+            padding: 10px;
+            background: #222;
+            border-radius: 5px;
+        }
+        .upi-card {
+            background: #333;
+            padding: 15px;
+            border-radius: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 10px;
+        }
+        .upi-card span {
+            font-size: 16px;
+            font-weight: bold;
+            word-break: break-all;
+        }
+        .copy-btn {
+            background: #0072ff;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .copy-btn:hover {
+            background: #005bcc;
+        }
+        .add-upi {
+            padding: 10px;
+            background: #0072ff;
+            color: white;
+            text-align: center;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .add-upi:hover {
+            background: #005bcc;
+        }
+        .popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: #1e1e1e;
+            padding: 20px;
+            border-radius: 8px;
+            width: 300px;
+            text-align: center;
+            border: solid white;
+        }
+        .popup input {
+            width: 100%;
+            padding: 8px;
+            margin-top: 10px;
+            background: #333;
+            color: white;
+            border: none;
+            border-radius: 4px;
+        }
+        .popup button {
+            margin-top: 10px;
+            padding: 8px;
+            width: 100%;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        .save-btn {
+            background: #0072ff;
+            color: white;
+        }
+        .cancel-btn {
+            background: #ff3b30;
+            color: white;
+        }
+
+
+        .section {
+            display: none;
+            margin-top: 10px;
+            padding: 10px;
+            background: #222;
+            border-radius: 5px;
+        }
+        .game-item {
+            padding: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #333;
+            border-radius: 5px;
+            margin-top: 5px;
+        }
+        .game-item span {
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .game-btn {
+            background: #0072ff;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .game-btn:hover {
+            background: #005bcc;
+        }
