@@ -85,7 +85,7 @@ function updateBattleMode() {
     const teamMode = document.getElementById("mode");
 
     $.ajax({
-        url: "{% url 'update_create_card' %}", // Your server endpoint
+        url: "update-create-card/", // Your server endpoint
         type: 'POST', // Or GET, etc.
         contentType: "application/json",
         data: JSON.stringify({game: game}), // Data to send to the server
