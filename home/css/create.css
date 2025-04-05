@@ -56,6 +56,20 @@
             outline: none;
             box-shadow: 0 0 15px #ff0077;
         }
+
+            .max_players{
+            width: 65%;
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            background: #202040;
+            color: white;
+            font-size: 14px;
+            box-shadow: 0 0 10px rgba(0, 255, 255, 0.4);
+            font-family: None;
+    
+            
+        }
         
         .caution-label{
             width: 65%;
