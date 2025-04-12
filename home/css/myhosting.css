@@ -60,6 +60,12 @@ body {
             margin: 1px 0;
             font-weight: bold;
 }
+.game-des {
+            text-align: center;
+            font-size: 14px;
+            color: #ccc;
+            margin-bottom: 15px;
+        }
 
 .game-info {
             font-size: 14px;
