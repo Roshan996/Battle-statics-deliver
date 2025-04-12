@@ -56,8 +56,9 @@ body {
 }
 
 .game-title {
-            font-size: 1px;
-            margin: 1px 0;
+            font-size: 18px;
+            margin-top: 16px;
+            margin-bottom: 6px;
             font-weight: bold;
             color: #ffcc00;
 }
@@ -65,7 +66,7 @@ body {
             text-align: center;
             font-size: 14px;
             color: #ccc;
-            margin-bottom: 15px;
+            margin-bottom: 12px;
         }
 
 .game-info {
